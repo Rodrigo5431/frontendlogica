@@ -28,6 +28,7 @@ alert ("Digite o Valor que voce quer converter para Dolar");
 
 dindin = prompt ("digite o valor em Real");
 resultado = dindin / 4.95;
+resultado = resultado.toFixed(2)
 
 alert (`o Resultado convertido em dolar é:  ${resultado}`);
 
@@ -114,4 +115,4 @@ alert ('Esta opção Não existe');
 }
 
 
-exercicio7();
+exercicio3();
