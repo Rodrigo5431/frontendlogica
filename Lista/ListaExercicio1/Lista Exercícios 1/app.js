@@ -52,11 +52,17 @@ function exercicio5 (){;
 
    let m2
     
-    base = prompt ("Diga o comprimento do terrno")
+    base = prompt ("Diga o comprimento do terrno");
    
-    largura = prompt ("Diga a largura de seu terreno")
+    largura = prompt ("Diga a largura de seu terreno");
    
-   alert(`a area em metros2 é: = ${base * largura} metros quadrados`)
+   alert(`a area em metros2 é: = ${base * largura} metros quadrados`);
+
+   let  = base * largura
+
+
+
+alert
    }
 
 
@@ -66,14 +72,14 @@ function exercicio6 () {
 
 
 alert ("Calculo de combustivel");
-   kms = prompt ("Quantos kms foram percorridos pelo seu carro?");
+  let kms = prompt ("Quantos kms foram percorridos pelo seu carro?");
 
-   litros = prompt ("E quantos litros de combustivel foram gastos?");
+   let litros = prompt ("E quantos litros de combustivel foram gastos?");
 
-   let resultado = (litros / kms);
+   let resultado = (litros /kms );
 
 
-   alert (`seu carro consome em média litros ${resultado} por quilometro`);
+   alert (`seu carro consome em média ${resultado} por quilometro`);
 
 
 }
